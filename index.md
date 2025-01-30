@@ -47,7 +47,7 @@ $ binwalk -e flag.png
 ---
 ### **3. Initial Analysis**
 If you don't have any initial clues, you can use `strings` to find readable text in binary files.
-
+You can search in binary file with a specific name like Cuet_CTF
 #### **Example:**
 ```sh
 $ strings flag.elf | grep Cuet_CTF{
